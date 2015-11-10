@@ -1,0 +1,23 @@
+{
+  "name": "mock-firmata",
+  "version": "0.0.1",
+  "description": "Mocks used for testing code that depends on Firmata",
+  "main": "index.js",
+  "dependencies": {
+    "board-io": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rwaldron/mock-firmata.git"
+  },
+  "author": "Rick Waldron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwaldron/mock-firmata/issues"
+  },
+  "homepage": "https://github.com/rwaldron/mock-firmata#readme"
+}
