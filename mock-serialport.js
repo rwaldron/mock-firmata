@@ -21,7 +21,7 @@ module.exports.SerialPort = MockSerialPort;
 
 var calls = 0;
 
-module.exports.list = function(callback) {
+module.exports.SerialPort.list = module.exports.list = function(callback) {
   calls++;
   process.nextTick(function() {
     callback(null, calls === 2 ? [{comName: "/dev/usb"}] : []);
