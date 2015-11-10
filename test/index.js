@@ -1,7 +1,7 @@
 var mocks = require("../index.js");
 var Firmata = require("../mock-firmata");
 var Pins = require("../mock-pins");
-var Serial = require("../mock-serial");
+var SerialPort = require("../mock-serialport");
 
 if (mocks.Firmata !== Firmata) {
   console.log(mocks.Firmata, Firmata);
@@ -14,7 +14,7 @@ if (mocks.Pins !== Pins) {
   process.exit(1);
 }
 
-if (mocks.Serial !== Serial) {
+if (mocks.SerialPort !== SerialPort) {
   console.log("MockSerial not exported correctly");
   process.exit(1);
 }
