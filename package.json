@@ -1,6 +1,6 @@
 {
   "name": "mock-firmata",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Mocks used for testing code that depends on Firmata",
   "main": "index.js",
   "dependencies": {
