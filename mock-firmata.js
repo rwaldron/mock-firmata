@@ -34,4 +34,6 @@ util.inherits(MockFirmata, Board);
 MockFirmata.prototype.servoConfig = function() {};
 MockFirmata.prototype.pingRead = MockFirmata.prototype.pulseIn;
 
+MockFirmata.Board = MockFirmata;
+
 module.exports = MockFirmata;
